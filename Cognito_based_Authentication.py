@@ -5,7 +5,7 @@ from requests.auth import HTTPBasicAuth
 
 def get_secret_information():
     # Specify the name or ARN of the secret
-    secret_name = "arn:aws:secretsmanager:ap-southeast-2:372425761029:secret:statisticaljwtToken-qSP0Dk"
+    secret_name = ""
     # Create a Secrets Manager client
     client = boto3.client("secretsmanager")
     
